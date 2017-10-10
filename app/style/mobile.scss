@@ -1,0 +1,957 @@
+//colors
+$color_0: rgba(34,41,61, 1);
+$color_1: #22293d;
+$color_2: #dadadb;
+
+@media(min-width: 1280px) {
+  .topCarousel .owl-nav {
+    max-width: 1170px;
+    }
+  .memberCarousel .item .itemImg {
+    width: 270px;
+    height: 180px;
+    }
+  }
+@media(max-width: 1280px) {
+  .topCarousel {
+    .owl-nav {
+      max-width: 990px;
+      }
+    .item .ratioSave {
+      padding-bottom: 680px;
+      }
+    }
+  .topCarouselText {
+    padding-top: 270px;
+    }
+  .mainMenuDesktop .itemMenu {
+    padding: 7px 15px;
+    }
+  .opacityCarousel.ratioSave {
+    padding-bottom: 680px;
+    }
+  .bgImage .ratioSave {
+    padding-bottom: 680px;
+    }
+  .subHeaderBlock br {
+    display: none;
+    }
+  .twoDifferent .blockShadow {
+    width: 310px;
+    height: 277px;
+    }
+  .mainPostCompany .logoCompanyBlock img {
+    max-width: 190px;
+    max-height: 180px;
+    }
+  .profileBlock .leftInfo .profileLogo img {
+    max-width: 190px;
+    max-height: 180px;
+    }
+  }
+@media(max-width: 1279px) {
+  .memberCarousel .item .itemImg {
+    width: 225px;
+    height: 180px;
+    img {
+      max-width: 165px;
+      max-height: 115px;
+      }
+    }
+  }
+@media(max-width: 1024px) {
+  .fullWidthTabletHorizontal {
+    width: 100%;
+    }
+  .simpleParallax {
+    background-attachment: inherit;
+    .subHeaderBlock .text br {
+      display: none;
+      }
+    }
+  .contactParallax {
+    background-attachment: inherit;
+    }
+  .signUpParallax {
+    background-attachment: inherit;
+    }
+  .microloansParallax {
+    background-attachment: inherit;
+    padding-bottom: 50px;
+    }
+  .grid {
+    margin: 0;
+    }
+  .iconLocationGray {
+    margin-right: 5px;
+    }
+  .memberCarousel {
+    .owl-nav {
+      display: none!important;
+      }
+    .item .itemImg {
+      width: 100%;
+      }
+    }
+  .memberBlockTop {
+    padding-bottom: 50px;
+    }
+  .memberBussines {
+    padding-bottom: 50px;
+    padding-top: 55px;
+    }
+  .memberToMember {
+    padding-bottom: 50px;
+    padding-top: 55px;
+    }
+  .memberCarouselHolder {
+    padding-bottom: 50px;
+    }
+  .quoteBlock {
+    padding-top: 55px;
+    }
+  .newsBlock .subHeader .seeMoreBlock {
+    margin-right: 9px;
+    }
+  }
+@media(max-width: 1023px) {
+  .logo {
+    margin: 0 auto;
+    }
+  .logoCenter {
+    width: 100%;
+    }
+  .menuOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0;
+    background-color: $color_0;
+    //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+    transition: opacity .4s cubic-bezier(0.7,0,0.3,1);
+    }
+  .fullWidthTabletVertical {
+    width: 100%;
+    }
+  .mainMenuDesktop {
+    display: none;
+    }
+  .mainMenuMobile {
+    display: block;
+    width: 32px;
+    height: 21px;
+    .burgerLine {
+      top: 9px;
+      }
+    &:after {
+      top: 18px;
+      }
+    }
+  .close-button {
+    width: 30px;
+    height: 30px;
+    }
+  .menu-wrap {
+    display: block;
+    width: 320px;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translate3d(-335px,0,0);
+    &.menuScroll .top-section {
+      padding: 22px 18px;
+      }
+    }
+  .owl-dots {
+    bottom: -50px;
+    }
+  .welcomeBlock {
+    padding: 100px 0 50px;
+    .textDescription {
+      padding: 0;
+      }
+    .blockBorder {
+      padding: 20px;
+      }
+    }
+  .statistic-box {
+    &:after {
+      top: 70px;
+      bottom: inherit;
+      }
+    .statsDescription br {
+      display: none;
+      }
+    }
+  .shortBlock {
+    padding: 13px 12px;
+    max-height: 75px;
+    .button.circle {
+      right: 13px;
+      top: -20px;
+      }
+    }
+  .reviewsBlock {
+    .ratioSave {
+      padding-bottom: 440px;
+      }
+    .posA {
+      padding: 40px 0 90px;
+      }
+    }
+  .eventBlock {
+    padding: 40px 0 90px;
+    }
+  .newsBlock {
+    padding: 40px 0 90px;
+    }
+  .eventCarousel {
+    margin-top: 20px;
+    }
+  .newsCarousel {
+    margin-top: 20px;
+    }
+  .reviewsCarousel {
+    margin-top: 20px;
+    }
+  footer {
+    padding: 45px 0 25px;
+    .pad-l-r-0 {
+      padding: 0 15px;
+      }
+    }
+  .grid {
+    margin: 0 45px;
+    .grid-sizer {
+      width: 48%;
+      }
+    .gridItem {
+      width: 48%;
+      margin-bottom: 4%;
+      }
+    .gutter-sizer {
+      width: 4%;
+      }
+    &.asideRight {
+      margin-top: 2%!important;
+      .gutter-sizer {
+        width: 1%;
+        }
+      .grid-sizer {
+        overflow: hidden;
+        width: 49.5%;
+        }
+      .gridItem {
+        overflow: hidden;
+        width: 49.5%;
+        margin-bottom: 1%;
+        }
+      }
+    }
+  .twoDifferent {
+    .blockShadow {
+      width: 230px;
+      height: 205px;
+      }
+    .itemPosDescription {
+      margin-top: 0;
+      }
+    .pad-l-r-0 {
+      padding-left: 18px;
+      padding-right: 18px;
+      }
+    }
+  .tableTwoCols {
+    margin-bottom: 0;
+    }
+  .show-menu .menuOverlay {
+    opacity: .1;
+    display: block;
+    //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+    transition: opacity .4s cubic-bezier(0.7,0,0.3,1);
+    }
+  .topCarousel .owl-nav {
+    max-width: 750px;
+    }
+  .button.circle {
+    width: 40px;
+    height: 40px;
+    }
+  .agentsBlock .pad-l-r-0 {
+    padding-left: 18px;
+    padding-right: 18px;
+    }
+  .eventHolder .container.pad-l-r-0 {
+    padding-left: 18px;
+    padding-right: 18px;
+    }
+  .eventPostHolder .pad-l-r-0 {
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+  .backHeader .pad-l-r-0 {
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+  .rightBlockBorder .leftImg .button.circle {
+    right: -20px;
+    }
+  .itemNews .newsDesciption {
+    padding: 13px 12px;
+    }
+  .memberBussines .blockBorder {
+    margin-top: 20px;
+    .textDescription {
+      padding: 12px 13px 20px;
+      }
+    }
+  .quoteBlock .blockBorder {
+    padding: 12px 13px 20px;
+    }
+  .microloansParallax .blockBorder {
+    padding: 12px 13px 20px;
+    }
+  }
+@media(max-width: 767px) {
+  .logo {
+    width: 113px;
+    height: 55px;
+    }
+  header {
+    background: $color_1;
+    .topMenu .menuPadd {
+      padding: 14px 0 15px;
+      border-bottom: none;
+      .pad-l-r-0 {
+        padding: 0 18px;
+        }
+      }
+    &.menuBg .logo svg {
+      width: 113px;
+      height: 55px;
+      }
+    .logo svg {
+      width: 113px;
+      height: 55px;
+      }
+    }
+  .mainMenuMobile {
+    width: 25px;
+    height: 17px;
+    .burgerLine {
+      top: 7px;
+      }
+    &:after {
+      top: 14px;
+      }
+    }
+  .backHeader {
+    top: 87px;
+    padding-left: 12px;
+    }
+  .close-button {
+    width: 25px;
+    height: 25px;
+    }
+  .close-button::before {
+    top: 0;
+    left: 10px;
+    }
+  .close-button::after {
+    top: 0;
+    left: 10px;
+    }
+  .menu-wrap {
+    width: 75%;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translate3d(-105%,0,0);
+    .top-section {
+      padding: 28px 18px;
+      }
+    &.menuScroll .top-section {
+      padding: 28px 18px;
+      }
+    }
+  .owl-dots {
+    display: none;
+    }
+  .eventCarousel {
+    margin-top: 35px;
+    }
+  .newsCarousel {
+    margin-top: 35px;
+    .owl-item {
+      .bgDarkBlueOpacity {
+        background-color: transparent;
+        z-index: 0;
+        }
+      &.active.center .bgDarkBlueOpacity {
+        z-index: 0;
+        background-color: transparent;
+        }
+      }
+    }
+  .reviewsCarousel {
+    margin-top: 35px;
+    }
+  .seeMoreBlock {
+    display: none;
+    }
+  .reviewsBlock {
+    .posA {
+      padding-bottom: 90px;
+      }
+    .ratioSave {
+      padding-bottom: 390px;
+      }
+    .item {
+      padding: 15px 20px;
+      .infoUser {
+        padding-left: 15px;
+        }
+      .userImg {
+        width: 70px;
+        height: 70px;
+        }
+      .textReview {
+        margin-top: 15px;
+        padding-top: 12px;
+        max-height: 92px;
+        height: 92px;
+        }
+      }
+    }
+  .eventBlock {
+    padding-bottom: 90px;
+    }
+  .newsBlock {
+    padding-bottom: 90px;
+    }
+  .subHeader {
+    line-height: 30px;
+    padding: 0 18px;
+    &.mar-b-50 {
+      margin-bottom: 25px;
+      }
+    }
+  .topCarousel {
+    .owl-nav {
+      left: 18px;
+      top: 75%;
+      }
+    .item .ratioSave {
+      padding-bottom: 110%;
+      }
+    }
+  .topCarouselText {
+    padding-top: 120px;
+    padding-left: 18px;
+    .title {
+      font-size: 36px;
+      line-height: 46px;
+      }
+    .subTitle {
+      font-size: 16px;
+      line-height: 22px;
+      }
+    }
+  .newsDescription {
+    padding: 16px 20px;
+    }
+  .statistic-box {
+    &:after {
+      display: none;
+      }
+    .statsValue {
+      margin-bottom: 5px;
+      }
+    .statsDescription {
+      font-size: 17px;
+      line-height: 21px;
+      margin: 0 35px;
+      padding: 0;
+      padding-bottom: 20px;
+      border-bottom: 1px solid $color_2;
+      br {
+        display: block;
+        }
+      }
+    &:first-child .statsDescription br {
+      display: none;
+      }
+    &:last-child .statsDescription {
+      border-bottom: none;
+      padding-bottom: 0;
+      }
+    }
+  .welcomeBlock {
+    padding-top: 30px;
+    .blockBorder {
+      position: relative;
+      top: inherit;
+      right: inherit;
+      left: inherit;
+      margin: 0 42px 45px;
+      padding: 32px 0;
+      }
+    }
+  .memberImage {
+    display: none;
+    }
+  .memberImg {
+    display: none;
+    }
+  footer {
+    padding: 48px 33px 29px;
+    .pad-l-r-0 {
+      padding: 0;
+      }
+    .line {
+      border-bottom: 1px solid $color_2;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      &:after {
+        display: none;
+        }
+      }
+    .inputBlock {
+      margin-top: 20px;
+      }
+    }
+  .copyRight {
+    padding: 22px 0;
+    &:before {
+      width: 100%;
+      }
+    }
+  .grid {
+    margin: 0 23px;
+    &.event {
+      margin: 0 23px;
+      .grid-sizer {
+        width: 100%;
+        }
+      .gridItem {
+        width: 100%;
+        margin-bottom: 7%;
+        &:last-child {
+          margin-bottom: 0;
+          }
+        }
+      .gutter-sizer {
+        width: 0;
+        }
+      }
+    .grid-sizer {
+      width: 100%;
+      }
+    .gridItem {
+      width: 100%;
+      margin-bottom: 7%;
+      }
+    .gutter-sizer {
+      width: 0;
+      }
+    &.asideRight {
+      margin-top: 5%!important;
+      .gutter-sizer {
+        width: 0;
+        }
+      .grid-sizer {
+        overflow: hidden;
+        width: 100%;
+        }
+      .gridItem {
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: 5%;
+        }
+      }
+    }
+  .directorsHolder {
+    padding: 125px 0 50px;
+    }
+  .memberBlockTop {
+    padding: 125px 0 50px;
+    }
+  .simpleParallax {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    .subHeaderBlock .text {
+      font-size: 17px;
+      line-height: 20px;
+      padding: 0 18px;
+      }
+    }
+  .contactParallax {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    &.contacts {
+      padding-top: 130px;
+      }
+    }
+  .eventHolder {
+    padding-top: 130px;
+    &.past {
+      padding-top: 45px;
+      padding-bottom: 50px;
+      }
+    }
+  .signUpParallax {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    .formBlock .alignCenter .button {
+      margin-top: 10px;
+      }
+    }
+  .memberCarouselHolder {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    }
+  .quoteBlock {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    .text {
+      margin-bottom: 30px;
+      }
+    .blockBorder.oterHeightParrent {
+      margin-bottom: 30px;
+      }
+    }
+  .memberBussines {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    .subHeader {
+      margin-bottom: 0;
+      }
+    .blockBorder {
+      margin-top: 40px;
+      }
+    }
+  .memberToMember {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+  .microloansParallax {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    .blockBorder.oterHeightParrentMicro {
+      margin-bottom: 30px;
+      }
+    }
+  .agentsBlock {
+    padding: 50px 18px 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+    .blockBorder {
+      padding: 20px;
+      margin-bottom: 20px;
+      }
+    }
+  .rightSide {
+    margin-top: 40px;
+    }
+  .borderTop {
+    margin-top: 20px;
+    padding-top: 20px;
+    }
+  .imageAgent {
+    width: 110px;
+    height: 110px;
+    }
+  .twoDifferent {
+    padding: 40px 0 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+    .blockShadow {
+      display: none;
+      }
+    .borderTop.second {
+      margin-top: 40px;
+      padding-top: 40px;
+      &.last .subHeaderBlock {
+        text-align: left;
+        padding: 0;
+        .subHeader {
+          text-align: left;
+          padding: 0;
+          }
+        }
+      }
+    }
+  .formBlock {
+    padding: 0 22px;
+    .button {
+      margin-top: 30px;
+      }
+    }
+  .inputLine {
+    margin-bottom: 0;
+    .inputBlock {
+      width: 100%;
+      padding: 0!important;
+      margin-bottom: 25px;
+      }
+    }
+  .newsletterHolder {
+    padding-top: 130px;
+    margin: 0 15px;
+    padding-bottom: 100px;
+    }
+  .eventPostHolder {
+    padding-top: 205px;
+    padding-bottom: 20px;
+    .pad-l-r-0 {
+      padding-left: 12px;
+      padding-right: 12px;
+      }
+    &.company {
+      padding-bottom: 40px;
+      }
+    }
+  .rightBlockBorder {
+    .rightDescription {
+      padding-left: 32px;
+      .title {
+        font-size: 16px;
+        line-height: 20px;
+        }
+      }
+    .leftImg {
+      width: 110px;
+      height: 110px;
+      }
+    &.company .leftImg {
+      img {
+        max-width: 72px;
+        max-height: 72px;
+        }
+      .button.circle {
+        width: 34px;
+        height: 34px;
+        right: -17px;
+        }
+      }
+    }
+  .inlineBlock {
+    display: block!important;
+    margin-right: 0;
+    .icon {
+      width: 12px;
+      }
+    }
+  .quoteBlockBottom {
+    margin-top: 30px;
+    padding-top: 25px;
+    .text {
+      margin-bottom: 0;
+      p {
+        margin-bottom: 0;
+        }
+      }
+    }
+  .signUpHolder {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    }
+  .signUpBottom {
+    .uploadBlock {
+      float: none;
+      margin: 0 auto;
+      }
+    .rightBlock {
+      float: none;
+      text-align: center;
+      }
+    }
+  .checkboxButton {
+    text-align: left;
+    }
+  .mainPostCompany {
+    .logoCompanyBlock {
+      width: 100%;
+      float: none;
+      padding: 90px 20px;
+      border-bottom: 1px solid $color_2;
+      height: 100%;
+      img {
+        position: relative;
+        top: inherit;
+        right: inherit;
+        bottom: inherit;
+        left: inherit;
+        }
+      }
+    .textCompanyBlock {
+      width: 100%;
+      float: none;
+      padding: 30px 20px;
+      }
+    }
+  .profileBlock {
+    .leftInfo {
+      width: 100%;
+      float: none;
+      margin-bottom: 30px;
+      .profileLogo {
+        padding: 90px 20px;
+        border-bottom: 1px solid $color_2;
+        height: 100%;
+        img {
+          position: relative;
+          top: inherit;
+          right: inherit;
+          bottom: inherit;
+          left: inherit;
+          }
+        }
+      }
+    .rightInfo {
+      width: 100%;
+      float: none;
+      .rightTop {
+        padding: 30px 20px 20px;
+        }
+      }
+    .rightBottom {
+      padding: 30px 20px 20px;
+      }
+    }
+  .modal {
+    .modal-dialog {
+      width: auto;
+      margin: 80px 15px;
+      }
+    &.modalEditProfile .modal-dialog {
+      width: auto;
+      margin: 80px 15px;
+      }
+    &.modalLogin .modal-body {
+      margin: 0;
+      padding: 22px 0;
+      }
+    }
+  .modal-content {
+    padding: 22px;
+    }
+  .modal-header {
+    .close {
+      top: 4px;
+      }
+    .headerTitle {
+      margin-bottom: 22px;
+      }
+    }
+  .modal-footer {
+    padding-top: 22px;
+    }
+  .profileHolder {
+    padding: 100px 15px 50px;
+    .profileHeader {
+      padding-bottom: 15px;
+      margin-bottom: 50px;
+      }
+    }
+  .opacityCarousel.ratioSave {
+    padding-bottom: 110%;
+    }
+  .memberHolder .item {
+    margin-bottom: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+    &:last-child {
+      margin-bottom: 0;
+      &:after {
+        display: none;
+        }
+      }
+    .text {
+      margin-top: 15px;
+      }
+    }
+  .newsLetterInfo .text {
+    line-height: 18px;
+    }
+  .gridItem .blockBorder .text {
+    height: 100%;
+    max-height: auto;
+    }
+  .subHeaderBlock .text {
+    margin-bottom: 40px;
+    }
+  ul.cond > li {
+    padding-bottom: 15px;
+    }
+  .postImage .ratioSave {
+    padding-bottom: 84.058%;
+    }
+  .mainPost .postDescription {
+    padding: 22px 19px 100px 19px;
+    .title {
+      font-size: 16px;
+      line-height: 20px;
+      .button {
+        font-size: 10px;
+        line-height: 10px;
+        }
+      }
+    .inlineData {
+      margin-top: 5px;
+      }
+    .socialHolder .item {
+      display: inline-block!important;
+      margin-right: 18px;
+      .icon {
+        width: 15px;
+        &.facebookIcon {
+          width: 8px;
+          }
+        }
+      }
+    }
+  .socialHolder .item .text {
+    padding-left: 22px;
+    }
+  .mainPostCompanyText .blockBorder {
+    padding: 30px 20px;
+    }
+  .modal-body .inputLine {
+    margin-bottom: 22px;
+    .inputBlock {
+      margin-bottom: 0;
+      }
+    }
+  .modalEditProfile .modal-body .signUpBottom {
+    margin-top: 0;
+    }
+  }
+@media(max-width: 320px) {
+  .grid {
+    margin: 0 3px;
+    }
+  .imageAgent {
+    width: 100px;
+    height: 100px;
+    }
+  .agentsBlock .blockBorder {
+    padding: 10px;
+    }
+  .textInfo.pad-l-20 .mar-b-10 {
+    margin-bottom: 0;
+    }
+  }

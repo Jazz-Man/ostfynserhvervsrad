@@ -1,0 +1,71 @@
+.animation-element {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  }
+
+.bounce-up {
+  .subject {
+    opacity: 0;
+
+    transition: all .4s ease-out;
+
+    transform: translate3d(0px, 200px, 0);
+
+    backface-visibility: hidden;
+    }
+  &.inView .subject {
+    opacity: 1;
+
+    transform: translate3d(0px, 0, 0);
+    }
+  }
+
+.slide-left {
+  .subject {
+    opacity: 0;
+
+    transition: all .4s linear;
+
+    transform: translate3d(-100px, 0, 0);
+    }
+  &.inView .subject {
+    opacity: 1;
+
+    transform: translate3d(0px, 0, 0);
+    }
+  }
+
+.slide-right {
+  .subject {
+    opacity: 0;
+
+    transition: all .4s linear;
+
+    transform: translate3d(100px, 0, 0);
+    }
+  &.inView .subject {
+    opacity: 1;
+
+    transform: translate3d(0px, 0, 0);
+    }
+  }
+
+.just-opp {
+  .subject {
+    opacity: 0;
+
+    transition: all .6s linear;
+    }
+  &.inView .subject {
+    opacity: 1;
+
+    transition: all .6s linear;
+    }
+  }
+
+.subject {
+  width: 100%;
+  margin: 0;
+  }

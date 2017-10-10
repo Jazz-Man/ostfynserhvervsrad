@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Titillium-Regular;
+    src: local("Titillium Regular"), url(../fonts/Titillium-Regular.eot) format('embedded-opentype');
+    src: local("Titillium Regular"), url(../fonts/Titillium-Regular.woff) format('woff');
+    }
+
+@font-face {
+    font-family: Titillium-Semibold;
+    src: local("Titillium Semibold"), url(../fonts/Titillium-Semibold.eot) format('embedded-opentype');
+    src: local("Titillium Semibold"), url(../fonts/Titillium-Semibold.woff) format('woff');
+    }
+
 body {
     cursor: default;
     width: 100%;
@@ -7,7 +19,7 @@ body {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    font-family: Titillium-Regular !important;
+    font-family: Titillium-Regular, sans-serif !important;
     font-size: 14px;
     font-weight: normal;
     color: #8d919c;
@@ -18,17 +30,6 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-@font-face {
-    font-family: Titillium-Regular;
-    src: local("Titillium Regular"), url(../fonts/Titillium-Regular.eot) format('embedded-opentype');
-    src: local("Titillium Regular"), url(../fonts/Titillium-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: Titillium-Semibold;
-    src: local("Titillium Semibold"), url(../fonts/Titillium-Semibold.eot) format('embedded-opentype');
-    src: local("Titillium Semibold"), url(../fonts/Titillium-Semibold.woff) format('woff');
-}
 
 .fontBold {
     font-family: Titillium-Semibold;

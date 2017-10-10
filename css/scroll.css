@@ -1,0 +1,93 @@
+/*animation element*/
+.animation-element {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+}
+
+/*bounce up animation for the subject*/
+.bounce-up .subject {
+  opacity: 0;
+  -ms-transition: all .4s ease-out;
+  -webkit-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+  -moz-transform: translate3d(0px, 200px, 0px);
+  -webkit-transform: translate3d(0px, 200px, 0px);
+  -ms-transform: translate(0px, 200px);
+  transform: translate3d(0px, 200px, 0px);
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.bounce-up.inView .subject {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+/*slide left animation for the subject*/
+.slide-left .subject {
+  opacity: 0;
+  -moz-transition: all .4s linear;
+  -webkit-transition: all 4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+}
+.slide-left.inView .subject {
+  opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+/*slide right animation for the subject*/
+.slide-right .subject {
+  opacity: 0;
+  -moz-transition: all .4s linear;
+  -webkit-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+  -moz-transform: translate3d(100px, 0px, 0px);
+  -webkit-transform: translate3d(100px, 0px, 0px);
+  -o-transform: translate(100px, 0px);
+  -ms-transform: translate(100px, 0px);
+  transform: translate3d(100px, 0px, 0px);
+}
+.slide-right.inView .subject {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+/*opacity animation for the subject*/
+.just-opp .subject {
+  opacity: 0;
+  -moz-transition: all .6s linear;
+  -webkit-transition: all .6s linear;
+  -o-transition: all .6s linear;
+  transition: all .6s linear;
+}
+.just-opp.inView .subject {
+  opacity: 1;
+  -moz-transition: all .6s linear;
+  -webkit-transition: all .6s linear;
+  -o-transition: all .6s linear;
+  transition: all .6s linear;
+}
+.subject {
+  width: 100%;
+  margin: 0px;
+}

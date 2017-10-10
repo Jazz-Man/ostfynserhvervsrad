@@ -1,0 +1,587 @@
+/*LANDING PAGE*/
+.welcomeBlock {
+	position: relative;
+	padding-top: 205px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+	.welcomeBlock .blockBorder {
+		padding: 60px 20px;
+		position: absolute;
+		top: -100px;
+		left: 0px;
+		right: 0px;
+		z-index: 10;
+	}
+	.welcomeBlock .textDescription {
+		padding: 0px 45px;
+	}
+	.welcomeBlock .button {
+		margin-top: 35px;
+	}
+.statistic-box .statsValue {
+	font-size: 48px;
+	line-height: 60px;
+	margin-bottom: 25px;
+}
+.statistic-box .statsDescription {
+	padding: 0px 12px;
+}
+.statistic-box:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 30px;
+	height: 1px;
+	margin: auto;
+	background-color: #dadadb;
+}
+.statistic-box:last-child:after {
+	content: '';
+	display: none;
+}
+
+.eventBlock {
+	padding: 55px 0px 140px 0px;
+}
+.eventBlock .item { position: relative; }
+	.eventBlock .blockBorder {
+		margin: 2px 3px 6px 3px;
+		overflow: hidden;
+	}
+	.eventBlock .item .croper {
+		border-radius: 6px;
+		overflow: hidden;
+	}
+
+.newsBlock {
+	padding: 55px 0px 140px 0px;
+}
+	.newsBlock .item .croper {
+		border-top-right-radius: 6px;
+		border-top-left-radius: 6px;
+		overflow: hidden;
+	}
+	.newsBlock .newsDescription .dateBlock .dateValue {
+		display: inline-block;
+		margin-left: 7px;
+	}
+	.newsBlock .newsDescription .title {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	.newsBlock .newsDescription .text {
+		max-height: 80px;
+		height: 80px;
+		overflow: hidden;
+	}
+	.newsBlock .newsDescription .button {
+		margin-top: 20px;
+	}
+.memberBlock {
+	padding: 45px 0px 50px 0px;
+	text-align: center;
+}
+.memberHolder .item {
+	position: relative;
+	padding-bottom: 30px;
+	margin-bottom: 60px;
+}
+	.memberHolder .item .text { margin-top: 35px; }
+.memberHolder .item:after {
+ 	content: '';
+ 	border-bottom: 1px solid #dadadb;
+ 	width: 65%;
+ 	height: 1px;
+ 	position: absolute;
+ 	left: 0px;
+ 	right: 0px;
+ 	bottom: 0px;
+ 	margin: 0px auto;
+}
+.memberImage.circle {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px #cdcdcd;
+	margin: 80px auto 35px auto;
+}
+	.memberImage.circle .imgHolder img { width: 100%; }
+
+.memberImage .smallImg {
+	position: absolute;
+	top: 17px;
+	right: -20px;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+}
+	.memberImage .smallImg img, .memberImage .mediumImg img, .memberImage .bigImg img { width: 100%; }
+.memberImage .mediumImg  {
+	position: absolute;
+	top: 0px;
+	right: -50px;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;	
+}
+.memberImage .bigImg {
+	position: absolute;
+	top: -30px;
+	right: -90px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;	
+}
+.reviewsBlock {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+	.reviewsBlock .posA { padding: 55px 0px 140px 0px; }
+	.reviewsBlock .item	{
+		padding: 20px 30px;
+		border-radius: 6px;
+		overflow: hidden;
+		text-align: left;
+	}
+		.reviewsBlock .item	.userImg {
+			float: left;
+			width: 80px;
+			height: 80px;
+		}
+		.reviewsBlock .item .infoUser { 
+			float: left;
+			padding-top: 16px;
+			padding-left: 19px;	
+		}
+			.reviewsBlock .item .userImg .croper {
+				border-radius: 50%;
+				overflow: hidden;
+			}
+			.reviewsBlock .item .infoUser .name {
+				font-size: 18px;
+			}
+		.reviewsBlock .item .textReview {
+			margin-top: 19px;
+			padding-top: 19px;
+			border-top: 1px solid #dadadb;
+			max-height: 100px;
+			height: 100px;
+			overflow: hidden;
+		}
+
+/* ABOUT US */
+.directorsHolder, .eventHolder, .newsletterHolder, .memberBlockTop, .contactParallax.contacts {
+	padding: 170px 0px 40px 0px;
+	overflow: hidden;
+}
+.agentsBlock {
+	padding: 80px 0px 70px 0px;
+	overflow: hidden;
+}
+	.agentsBlock .blockBorder {
+		padding: 30px;
+	}
+.imageAgent {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	overflow: hidden;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.twoDifferent {
+	padding: 80px 0px 50px 0px;
+	overflow: hidden;
+}
+	.twoDifferent .blockShadow {
+		width: 370px;
+		height: 330px;
+		margin: 25px 0px 0px 25px;
+	}
+	.twoDifferent .second .blockShadow {
+		margin: 25px 0px 0px -25px;
+	}
+	.twoDifferent .itemPos {
+		position: absolute;
+		top: -25px;
+		left: -25px;
+		width: 100%;
+		height: 100%;
+		border-radius: 4px;
+		overflow: hidden;
+	}
+	.twoDifferent .second .itemPos {
+		left: 25px;
+	}
+	.twoDifferent .itemPosDescription { margin-top: 35px; }
+	.twoDifferent .second .itemPosDescription { margin-top: 0px; }
+	.twoDifferent .borderTop.second { padding-top: 80px; }
+		.twoDifferent .second .itemPosDescription .readMore .readMoreLine { padding-bottom: 2px; }
+		.twoDifferent .itemPosDescription .readMore .readMoreLine
+		.twoDifferent .itemPosDescription .readMore .readMoreLine a { text-transform: uppercase; font-size: 13px; }
+		.twoDifferent .borderTop.second .subHeaderBlock .text { margin-bottom: 0px; }
+	.readMoreLine .arrowRightLargeBlack {
+
+	}
+	.readMoreLine:hover .arrowRightLargeBlack {
+		animation: hoverLink .25s linear;
+		-webkit-animation: hoverLink .25s linear;
+	}
+/* event page */
+.gridItem .blockBorder .croper {
+	border-radius: 6px;
+	overflow: hidden;
+}
+.eventHolder.past { padding: 80px 0px 70px 0px; overflow: hidden; }
+
+/* event datail */
+.eventPostHolder {
+	padding: 245px 0px 80px 0px;
+}
+.mainPost .postDescription .title {
+	position: relative;
+	padding-right: 100px;
+}
+	.mainPost .postDescription .title .button {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		padding-left: 21px;
+		padding-right: 21px;
+	}
+
+/*newsletter*/
+.itemNews {
+	position: relative;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 1px 6px #cdcdcd;
+	margin-bottom: 30px;
+}
+	.itemNews .imageSize {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+		.itemNews .imageSize img {
+			width: 100%;
+			height: auto;
+		}
+	.itemNews .newsDesciption {
+		position: relative;
+		padding: 25px 30px;
+	}
+		.itemNews .newsDesciption .button {
+			position: absolute;
+			right: 30px;
+			top: -25px;
+		}
+		.itemNews .newsDesciption .title {
+			font-size: 18px;
+			line-height: 20px;
+			margin-bottom: 5px;
+		}
+		.itemNews .newsDesciption .datailBlock {
+			margin-top: 5px;
+			border-top: 1px solid #dadadb;
+		}
+
+/*members*/
+.memberBlockTop { padding-bottom: 100px; }
+	.memberBlockTop .text {
+		margin-bottom: 35px;
+	}
+.memberCarouselHolder {
+	padding: 55px 0px 90px 0px;
+}
+	.memberCarousel .item {
+	    position: relative;    
+	}
+	.memberCarousel .item .itemImg {
+	    display: block;
+	    position: relative;
+	    border-radius: 6px;
+	    overflow: hidden;
+	    padding: 30px;
+	}
+	    .memberCarousel .item .itemImg img {
+	        position: absolute;
+	        top: 0px;
+	        right: 0px;
+	        bottom: 0px;
+	        left: 0px;
+	        max-width: 200px;
+	        max-height: 125px;
+	        height: auto;
+	        margin: auto;
+	        display: block;
+	        width: auto;
+	    }
+	    .memberCarousel .item .itemDescription {
+	        margin-top: 20px;
+	    }
+.quoteBlock {
+	padding: 90px 0px 55px 0px;
+	overflow: hidden;
+}
+	.quoteBlock .text {
+		margin-bottom: 50px;
+	}
+	.quoteBlock .blockBorder {
+		padding: 33px 27px;
+	}
+		.quoteBlock .blockBorder .title {
+			font-size: 18px;
+			line-height: 20px;
+			margin-bottom: 7px;
+		}
+.tableTwoCols {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.tableTwoCols tr { vertical-align: top; }
+	.tableTwoCols tr td {
+		line-height: 20px;
+		padding-bottom: 4px;
+	}
+	.tableTwoCols tr td:first-child {
+		width: 80%;
+	}
+	.tableTwoCols tr td:last-child {
+		width: 20%;
+	}
+.quoteBlockBottom {
+	border-top: 1px solid #dadadb;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+	.quoteBlockBottom .text { margin-bottom: 0px; }
+.memberBussines {
+	padding: 75px 0px 100px 0px;
+	overflow: hidden;
+}
+.memberBussines .blockBorder { position: relative; margin-top: 40px; }
+	.memberBussines .blockBorder .ratioSave .croper {
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+		overflow: hidden;
+	}
+	.memberBussines .blockBorder .textDescription {
+		padding: 40px 28px 30px 28px;
+	}
+		.memberBussines .blockBorder .textDescription .title {
+			font-size: 18px;
+			line-height: 20px;
+			margin-bottom: 10px;
+		}
+.memberToMember {
+	padding: 75px 0px;
+}
+	.memberToMember a {
+		margin-top: 35px;
+		display: block;
+		text-transform: uppercase;
+	}
+		.memberToMember a span {
+			margin-left: 12px;
+		}
+.microloansParallax .text {
+	margin-bottom: 55px;
+}
+	.microloansParallax .blockBorder {
+		padding: 35px 30px 40px 30px;
+	}
+		.microloansParallax .blockBorder .title {
+			font-size: 18px;
+			line-height: 20px;
+			margin-bottom: 10px;
+		}
+		.microloansParallax .blockBorder .button {
+			margin-top: 30px;
+		}
+		.microloansParallax .blockBorder .text {
+			margin-bottom: 0px;
+		}
+.signUpHolder {
+	padding: 40px 0px 25px 0px;
+}
+.signUpBottom {
+	position: relative;
+	width: 100%;
+}
+	.signUpBottom .uploadBlock {
+		float: left;
+		width: 140px;
+		height: 140px;
+		position: relative;
+		border-radius: 6px;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.signUpBottom .uploadBlock .uploadImage {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		border: 2px dashed #dadadb;
+	}
+		.signUpBottom .uploadBlock .uploadImage .icon {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			margin: auto;
+		}
+		.signUpBottom .uploadBlock .uploadImage .textUp {
+			position: absolute;
+			bottom: 23px;
+			right: 0px;
+			left: 0px;
+			text-align: center;
+			font-size: 13px;
+			line-height: 20px;
+			text-transform: uppercase;
+		}
+		.signUpBottom .uploadBlock .imageUser {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+		}
+			.signUpBottom .uploadBlock .imageUser img {
+				width: 150%;
+			    height: auto;
+			    margin: auto;
+			    position: absolute;
+			    top: 0px;
+			    right: -30px;
+			    bottom: 0px;
+			    left: -30px;
+			    text-align: center;
+			    opacity: 0;
+			}
+			.signUpBottom .uploadBlock .imageUser img.imageShow {
+				opacity: 1;
+			}
+	.signUpBottom .rightBlock {
+		padding-top: 25px;
+		float: right;
+		text-align: right;
+	}
+		.signUpBottom .rightBlock .button {
+			margin-top: 35px;
+		}
+
+/* company */
+.mainPostCompany {
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+	.mainPostCompany .logoCompanyBlock {
+		float: left;
+		width: 38%;
+		height: 100%;
+		position: relative;
+	}
+		.mainPostCompany .logoCompanyBlock img {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			max-width: 230px;
+			max-height: 200px;
+			height: auto;
+			margin: auto;
+			display: block;
+			width: auto;
+		}
+	.mainPostCompany .textCompanyBlock {
+		float: left;
+		width: 62%;
+		padding: 35px 25px;
+	}
+		.mainPostCompany .textCompanyBlock .title {
+			font-size: 28px;
+			line-height: 30px;
+			margin-bottom: 5px;
+		}
+		.mainPostCompany .textCompanyBlock .text {
+			margin-bottom: 20px;
+		}
+		.mainPostCompany .textCompanyBlock .text:last-child {
+			margin-bottom: 0px;
+		}
+.mainPostCompanyText .blockBorder {
+	padding: 45px 30px;
+}
+
+/*Profile*/
+.profileHolder {
+	padding: 130px 0px 100px 0px;
+}
+	.profileHolder .profileHeader {
+		font-size: 28px;
+		line-height: 40px;
+		padding-bottom: 25px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #dadadb;
+	}
+.profileBlock .leftInfo {
+	width: 31%;
+	float: left;
+	position: relative;
+}
+	.profileBlock .leftInfo .profileLogo {
+		position: relative;
+		height: 270px;
+		width: 100%;
+		border-bottom: 1px solid #dadadb;
+	}
+		.profileBlock .leftInfo .profileLogo img {
+			position: absolute;
+		    top: 0px;
+		    right: 0px;
+		    bottom: 0px;
+		    left: 0px;
+		    max-width: 230px;
+		    max-height: 200px;
+		    height: auto;
+		    margin: auto;
+		    display: block;
+		    width: auto;
+		}
+	.profileBlock .leftInfo  .profileDescription {
+		padding: 35px 20px 45px 20px;
+	}
+		.profileBlock .leftInfo  .profileDescription .titleName {
+			font-size: 18px;
+			line-height: 24px;
+		}
+.profileBlock .rightInfo {
+	width: 66%;
+	float: right;
+}
+	.profileBlock .rightInfo .rightTop  {
+		padding: 30px 30px 20px 30px;
+		margin-bottom: 30px;
+	}
+		.profileBlock .rightInfo .rightTop .title {
+			font-size: 28px;
+			line-height: 30px;
+			margin-bottom: 10px;
+		}
+	.profileBlock .rightBottom {
+		padding: 30px 30px 50px 30px;
+	}

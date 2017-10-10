@@ -1,0 +1,404 @@
+@media (min-width: 1280px) {
+    .topCarousel .owl-nav { max-width: 1170px; }
+    .memberCarousel .item .itemImg {
+        width: 270px;
+        height: 180px; 
+    }
+}
+@media (max-width: 1280px) {
+    .mainMenuDesktop .itemMenu {
+        padding: 7px 15px;
+/*        font-size: 12px;*/
+    }
+    .topCarousel .item .ratioSave, .opacityCarousel.ratioSave, .bgImage .ratioSave { padding-bottom: 680px; }
+    .topCarouselText {padding-top: 270px;}
+    .topCarousel .owl-nav { max-width: 990px; }
+    .subHeaderBlock br { display: none; }
+    .twoDifferent .blockShadow {
+        width: 310px;
+        height: 277px;
+    }
+    .mainPostCompany .logoCompanyBlock img, .profileBlock .leftInfo .profileLogo img {
+        max-width: 190px;
+        max-height: 180px;
+    }
+}
+@media (max-width: 1279px) {
+    .memberCarousel .item .itemImg {
+        width: 225px;
+        height: 180px; 
+    }
+    .memberCarousel .item .itemImg img {
+        max-width: 165px;
+        max-height: 115px;
+    }
+}
+@media (max-width: 1024px) {
+    .fullWidthTabletHorizontal {
+        width: 100%;
+    }
+    .newsBlock .subHeader .seeMoreBlock {
+        margin-right: 9px;
+    }
+    .simpleParallax, .contactParallax, .signUpParallax, .microloansParallax {
+        background-attachment: inherit;
+    }
+    .simpleParallax .subHeaderBlock .text br { display: none; }
+    .grid { margin: 0px; }
+    .iconLocationGray { margin-right: 5px; }
+    .memberCarousel .owl-nav {display: none!important;}
+    .memberCarousel .item .itemImg { width: 100%; }
+    .memberBlockTop, .memberBussines, .memberToMember, .microloansParallax, .memberCarouselHolder { padding-bottom: 50px; }
+    .quoteBlock, .memberBussines, .memberToMember { padding-top: 55px; }
+}
+@media (max-width: 1023px) {
+    .logo { margin: 0px auto; }
+    .logoCenter { width: 100%; }
+    .menuOverlay {
+        display: none;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        opacity: 0;
+        background-color: rgba(34,41,61, 1);
+        transition: opacity .4s cubic-bezier(0.7,0,0.3,1);
+        -webkit-transition: opacity .4s cubic-bezier(0.7,0,0.3,1);
+    }   
+        .show-menu .menuOverlay {
+            opacity: .1;
+            display: block;
+            transition: opacity .4s cubic-bezier(0.7,0,0.3,1);
+            -webkit-transition: opacity .4s cubic-bezier(0.7,0,0.3,1);
+        }
+    .fullWidthTabletVertical {
+        width: 100%;
+    }
+    .mainMenuDesktop {
+        display: none;
+    }
+    .mainMenuMobile {
+        display: block;
+    }
+    .mainMenuMobile {
+        width: 32px;
+        height: 21px;
+    }
+    .mainMenuMobile .burgerLine { top: 9px; }
+    .mainMenuMobile:after { top: 18px; }
+    .close-button {
+        width: 30px;
+        height: 30px;
+    }
+    .menu-wrap {
+        display: block;
+        width: 320px;
+        -webkit-transform: translate3d(-335px,0,0);
+        transform: translate3d(-335px,0,0);
+    }
+    .menu-wrap.menuScroll .top-section {padding: 22px 18px;}
+    .owl-dots { bottom: -50px; }
+    .topCarousel .owl-nav { max-width: 750px; }
+    .welcomeBlock .textDescription { padding: 0px; }
+    .welcomeBlock .blockBorder { padding: 20px; }
+    .statistic-box .statsDescription br { display: none; }
+    .statistic-box:after { 
+        top: 70px; 
+        bottom: inherit;
+    }
+    .button.circle {
+        width: 40px;
+        height: 40px;
+    }
+    .shortBlock { padding: 13px 12px; max-height: 75px; }
+    .shortBlock .button.circle {
+        right: 13px;
+        top: -20px;
+    }
+    .welcomeBlock { padding: 100px 0px 50px 0px; }
+    .reviewsBlock .ratioSave { padding-bottom: 440px; }
+    .reviewsBlock .posA, .eventBlock, .newsBlock{ padding: 40px 0px 90px 0px; }
+
+    .eventCarousel, .newsCarousel, .reviewsCarousel { margin-top: 20px; }
+    footer { padding: 45px 0px 25px 0px; }
+
+    .grid { margin: 0px 45px; }
+    .grid .grid-sizer, .grid .gridItem {width: 48%;}
+    .grid .gutter-sizer {width: 4%;}
+    .grid .gridItem {margin-bottom: 4%;}
+
+    .grid.asideRight .gutter-sizer  {width: 1%;}
+    .grid.asideRight {margin-top: 2%!important;}
+        .grid.asideRight .grid-sizer, .grid.asideRight .gridItem {
+            overflow: hidden;
+            width: 49.5%;
+        }
+            .grid.asideRight .gridItem { margin-bottom: 1%; }
+    .twoDifferent .blockShadow {
+        width: 230px;
+        height: 205px;
+    }
+    .twoDifferent .itemPosDescription { margin-top: 0px; }
+    footer .pad-l-r-0 { padding: 0px 15px; }
+    .agentsBlock .pad-l-r-0, .twoDifferent .pad-l-r-0, .eventHolder .container.pad-l-r-0 { padding-left: 18px; padding-right: 18px; }
+    .eventPostHolder .pad-l-r-0, .backHeader .pad-l-r-0 { padding-left: 3px; padding-right: 3px; }
+    .rightBlockBorder .leftImg .button.circle { right: -20px; }
+    .itemNews .newsDesciption { padding: 13px 12px; }
+    .tableTwoCols { margin-bottom: 0px; }
+    .memberBussines .blockBorder { margin-top: 20px; }
+    .memberBussines .blockBorder .textDescription, .quoteBlock .blockBorder, .microloansParallax .blockBorder { padding: 12px 13px 20px 13px; }
+}
+@media (max-width: 767px) {
+    .logo {
+        width: 113px;
+        height: 55px;
+    }
+    header .topMenu .menuPadd .pad-l-r-0 { padding: 0px 18px; }
+    .mainMenuMobile {
+        width: 25px;
+        height: 17px;
+    }
+    .mainMenuMobile .burgerLine { top: 7px; }
+    .mainMenuMobile:after { top: 14px; }
+    
+    header { background: #22293d; }
+    header .topMenu .menuPadd {
+        padding: 14px 0px 15px 0px;
+        border-bottom: none;    
+    }
+    header.menuBg .logo svg, header .logo svg {
+        width: 113px;
+        height: 55px;   
+    }
+    .backHeader { top: 87px; padding-left: 12px; }
+    .close-button {
+        width: 25px;
+        height: 25px;
+    }
+    .close-button::before, .close-button::after { top: 0px; left: 10px; }
+    .menu-wrap {
+        width: 75%;
+        -webkit-transform: translate3d(-105%,0,0);
+        transform: translate3d(-105%,0,0);
+    }
+    .menu-wrap .top-section, .menu-wrap.menuScroll .top-section { padding: 28px 18px; }
+    .owl-dots { display: none; }
+    .eventCarousel, .newsCarousel, .reviewsCarousel {margin-top: 35px;}
+    .seeMoreBlock { display: none; }
+    .newsCarousel .owl-item .bgDarkBlueOpacity {
+        background-color: transparent;
+        z-index: 0;
+    }
+    .newsCarousel .owl-item.active.center .bgDarkBlueOpacity {
+        z-index: 0;
+        background-color: transparent;
+    }
+    .reviewsBlock .posA, .eventBlock, .newsBlock {
+        padding-bottom: 90px;
+    }
+    .subHeader { 
+        line-height: 30px; 
+        padding: 0px 18px;
+    }
+    .topCarousel .owl-nav { 
+        left: 18px; 
+        top: 75%;
+    }
+    .topCarousel .item .ratioSave, .opacityCarousel.ratioSave {
+        padding-bottom: 110%;
+    }
+    .topCarouselText {
+        padding-top: 120px;
+        padding-left: 18px;
+    }
+    .topCarouselText .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .topCarouselText .subTitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .newsDescription { padding: 16px 20px; }
+    .statistic-box:after { display: none; }
+    .statistic-box .statsValue { margin-bottom: 5px; }
+    .statistic-box .statsDescription {
+        font-size: 17px;
+        line-height: 21px;
+        margin: 0px 35px;
+        padding: 0px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #dadadb;
+    }
+    .statistic-box .statsDescription br { display: block; }
+    .statistic-box:first-child .statsDescription br {
+        display: none;
+    }
+    .statistic-box:last-child .statsDescription {
+         border-bottom: none;
+         padding-bottom: 0px;
+    }
+    .welcomeBlock { padding-top: 30px; }
+    .welcomeBlock .blockBorder {
+        position: relative;
+        top: inherit;
+        right: inherit;
+        left: inherit;
+        margin: 0px 42px 45px 42px;
+        padding: 32px 0px;
+    }
+    .memberImage, .memberImg { display: none; }
+    .memberHolder .item { 
+        margin-bottom: 30px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .memberHolder .item:last-child { margin-bottom: 0px; }
+    .memberHolder .item:last-child:after { display: none; }
+    .memberHolder .item .text {margin-top: 15px;}
+    .reviewsBlock .ratioSave { padding-bottom: 390px; }
+    .reviewsBlock .item { padding: 15px 20px; }
+    .reviewsBlock .item .infoUser { padding-left: 15px; }
+    .reviewsBlock .item .userImg {
+        width: 70px;
+        height: 70px;
+    }
+    .reviewsBlock .item .textReview {
+        margin-top: 15px; 
+        padding-top: 12px;
+        max-height: 92px;
+        height: 92px;
+    }
+    footer {
+        padding: 48px 33px 29px 33px;
+    }
+    footer .pad-l-r-0 { padding: 0px; }
+    footer .line {
+        border-bottom: 1px solid #dadadb;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+    }
+    footer .line:after { display: none; }
+    footer .inputBlock { margin-top: 20px; }
+    .newsLetterInfo .text { line-height: 18px; }
+    .copyRight { padding: 22px 0px; }
+    .copyRight:before { width: 100%; }
+    
+    .grid, .grid.event { margin: 0px 23px; }
+    .grid .grid-sizer, .grid .gridItem, .grid.event .grid-sizer, .grid.event .gridItem {width: 100%;}
+    .grid .gutter-sizer, .grid.event .gutter-sizer {width: 0%;}
+    .grid .gridItem, .grid.event .gridItem {margin-bottom: 7%;}
+    .gridItem .blockBorder .text {
+        height: 100%;
+        max-height: auto;
+    }
+    .grid.event .gridItem:last-child { margin-bottom: 0%; }
+    
+    .grid.asideRight { margin-top: 5%!important; }
+    .grid.asideRight .gutter-sizer  { width: 0%; }
+        .grid.asideRight .grid-sizer, .grid.asideRight .gridItem {
+            overflow: hidden;
+            width: 100%;
+        }
+        .grid.asideRight .gridItem { margin-bottom: 5%; }
+
+    .subHeaderBlock .text { margin-bottom: 40px; }
+    .directorsHolder, .memberBlockTop { padding: 125px 0px 50px 0px; }
+    .simpleParallax, .contactParallax, .eventHolder.past, .signUpParallax, .memberCarouselHolder, .quoteBlock, .memberBussines, .memberBussines, .memberToMember, .microloansParallax { 
+        padding-top: 45px;
+        padding-bottom: 50px; 
+    }
+    .simpleParallax .subHeaderBlock .text {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 0px 18px;
+    }
+    .agentsBlock { padding: 50px 18px 30px 18px; }
+    .rightSide { margin-top: 40px; }
+    ul.cond > li { padding-bottom: 15px; }
+    .borderTop {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .agentsBlock .blockBorder { padding: 20px; margin-bottom: 20px; }
+    .imageAgent { width: 110px; height: 110px; }
+    .twoDifferent { padding: 40px 0px 30px 0px; }
+    .twoDifferent .blockShadow { display: none; }
+    /*.twoDifferent .pad-l-r-0 { padding: 0px 18px; }*/
+    .twoDifferent .borderTop.second.last .subHeaderBlock, .twoDifferent .borderTop.second.last .subHeaderBlock .subHeader { text-align: left;  padding: 0px;}
+    .twoDifferent .borderTop.second { margin-top: 40px; padding-top: 40px; }
+    .agentsBlock, .twoDifferent { padding-left: 3px; padding-right: 3px; }
+    .formBlock { padding: 0px 22px; }
+    .formBlock .button {margin-top: 30px;}
+    .inputLine { margin-bottom: 0px; }
+    .inputLine .inputBlock { width: 100%; padding: 0px!important; margin-bottom: 25px; }
+    .eventHolder, .newsletterHolder, .contactParallax.contacts { padding-top: 130px; }
+    .eventPostHolder { padding-top: 205px; padding-bottom: 20px; }
+    .eventPostHolder .pad-l-r-0 { padding-left: 12px; padding-right: 12px; }
+    .postImage .ratioSave { padding-bottom: 84.058%; }
+    .mainPost .postDescription { padding: 22px 19px 100px 19px; }
+    .mainPost .postDescription .title, .rightBlockBorder .rightDescription .title { font-size: 16px; line-height: 20px; }
+    .mainPost .postDescription .inlineData { margin-top: 5px; }
+    .inlineBlock { display: block!important; margin-right: 0px; }
+    .inlineBlock .icon {width: 12px;}
+    .rightBlockBorder .leftImg { width: 110px; height: 110px; }
+    .rightBlockBorder .rightDescription {padding-left: 32px;}
+    .mainPost .postDescription .socialHolder .item { display: inline-block!important; margin-right: 18px; }
+    .mainPost .postDescription .socialHolder .item .icon { width: 15px; }
+    .mainPost .postDescription .socialHolder .item .icon.facebookIcon { width: 8px; }
+    .socialHolder .item .text { padding-left: 22px; }
+    .mainPost .postDescription .title .button { font-size: 10px; line-height: 10px; }
+    .newsletterHolder { margin: 0px 15px; padding-bottom: 100px; }
+    .subHeader.mar-b-50 { margin-bottom: 25px; }
+    .signUpParallax .formBlock .alignCenter .button { margin-top: 10px; }
+    .quoteBlock, .memberBussines, .memberToMember, .microloansParallax { padding-right: 15px; padding-left: 15px; }
+    .quoteBlock .blockBorder.oterHeightParrent { margin-bottom: 30px; }
+    .quoteBlockBottom { margin-top: 30px; padding-top: 25px; }
+    .quoteBlock .text { margin-bottom: 30px; }
+    .quoteBlockBottom .text, .quoteBlockBottom .text p { margin-bottom: 0px; }
+    .memberBussines .subHeader { margin-bottom: 0px; }
+    .memberBussines .blockBorder { margin-top: 40px; }
+    .microloansParallax .blockBorder.oterHeightParrentMicro { margin-bottom: 30px; }
+    .signUpHolder { padding-left: 30px; padding-right: 30px; }
+    .signUpBottom .uploadBlock { float: none; margin: 0px auto; }
+    .signUpBottom .rightBlock { float: none; text-align: center; } 
+    .checkboxButton { text-align: left; }
+    .signUpHolder { padding-bottom: 50px; }
+    .mainPostCompany .logoCompanyBlock, .mainPostCompany .textCompanyBlock { width: 100%; float: none; }
+    .mainPostCompany .logoCompanyBlock, .profileBlock .leftInfo .profileLogo { padding: 90px 20px; border-bottom: 1px solid #dadadb; height: 100%; }
+    .mainPostCompany .logoCompanyBlock img, .profileBlock .leftInfo .profileLogo img {
+        position: relative;
+        top: inherit;
+        right: inherit;
+        bottom: inherit;
+        left: inherit;
+    }
+    .mainPostCompany .textCompanyBlock, .mainPostCompanyText .blockBorder { padding: 30px 20px; }
+    .rightBlockBorder.company .leftImg img { max-width: 72px; max-height: 72px;}
+    .eventPostHolder.company { padding-bottom: 40px; }
+    .rightBlockBorder.company .leftImg .button.circle { width: 34px; height: 34px; right: -17px; }
+    .modal .modal-dialog, .modal.modalEditProfile .modal-dialog { width: auto; margin: 80px 15px; }
+    .modal-content { padding: 22px; }
+    .modal.modalLogin .modal-body  { margin: 0px; padding: 22px 0px; }
+    .modal-body .inputLine { margin-bottom: 22px;}
+    .modal-body .inputLine .inputBlock {margin-bottom: 0px;}
+    .modal-header .close { top: 4px; }
+    .modal-header .headerTitle { margin-bottom: 22px; }
+    .modal-footer { padding-top: 22px; }
+    .profileHolder { padding: 100px 15px 50px 15px; }
+    .profileHolder .profileHeader { padding-bottom: 15px; margin-bottom: 50px; }
+    .profileBlock .leftInfo, .profileBlock .rightInfo { width: 100%; float: none; }
+    .profileBlock .leftInfo { margin-bottom: 30px; }
+    .profileBlock .rightBottom, .profileBlock .rightInfo .rightTop { padding: 30px 20px 20px 20px; }
+    .modalEditProfile .modal-body .signUpBottom { margin-top: 0px; }
+}
+@media (max-width: 320px) {
+    .grid { margin: 0px 3px; }
+    .agentsBlock .blockBorder { padding: 10px; }
+    .imageAgent { width: 100px; height: 100px; }
+    .textInfo.pad-l-20 .mar-b-10 { margin-bottom: 0px; }
+}

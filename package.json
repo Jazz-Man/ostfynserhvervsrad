@@ -9,7 +9,7 @@
     "dom7": "^2.0.1",
     "js-base64": "^2.3.2",
     "reqwest": "^2.0.5",
-    "uikit": "https://github.com/uikit/uikit"
+    "uikit": "https://github.com/Jazz-Man/uikit"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.77",

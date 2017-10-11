@@ -3674,8 +3674,8 @@ less-loader@^4.0.5:
     pify "^2.3.0"
 
 less@^3.0.0-alpha.3:
-  version "3.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/less/-/less-3.0.0-alpha.3.tgz#d3da9234fd16e60a47d6291e772e65a841ec8410"
+  version "3.0.0-pre.4"
+  resolved "https://registry.yarnpkg.com/less/-/less-3.0.0-pre.4.tgz#67507b12e6dc93746f73d231ae38e3c043f1e380"
   optionalDependencies:
     errno "^0.1.1"
     graceful-fs "^4.1.2"
@@ -6196,9 +6196,9 @@ uid-number@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
 
-"uikit@https://github.com/uikit/uikit":
-  version "3.0.0-beta.30"
-  resolved "https://github.com/uikit/uikit#b367f0a485c47f0414327eaf51a919137fff9a48"
+"uikit@https://github.com/Jazz-Man/uikit":
+  version "3.0.0-beta.31"
+  resolved "https://github.com/Jazz-Man/uikit#8db085c4aa6e2b01f9768344c9acaa2ff285491c"
 
 uniq@^1.0.1:
   version "1.0.1"
@@ -6474,8 +6474,8 @@ webpack-sources@^1.0.1:
     source-map "~0.5.3"
 
 webpack@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.6.0.tgz#a89a929fbee205d35a4fa2cc487be9cbec8898bc"
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.7.1.tgz#6046b5c415ff7df7a0dc54c5b6b86098e8b952da"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"

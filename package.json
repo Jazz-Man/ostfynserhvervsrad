@@ -8,8 +8,7 @@
   "dependencies": {
     "dom7": "^2.0.1",
     "js-base64": "^2.3.2",
-    "reqwest": "^2.0.5",
-    "uikit": "https://github.com/Jazz-Man/uikit"
+    "reqwest": "^2.0.5"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.77",
@@ -32,10 +31,8 @@
     "html-webpack-plugin": "^2.30.1",
     "html-webpack-template-pug": "^1.1.1",
     "img-loader": "^2.0.0",
-    "less": "^3.0.0-alpha.3",
-    "less-loader": "^4.0.5",
     "lodash": "^4.17.4",
-    "node-sass": "^4.5.3",
+    "node-sass": "^5.0.0",
     "path-complete-extname": "^0.1.0",
     "process": "^0.11.10",
     "pug": "^2.0.0-rc.4",
